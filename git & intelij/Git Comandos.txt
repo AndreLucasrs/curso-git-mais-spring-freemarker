@@ -46,6 +46,8 @@ git config user.email "teste@gmail.com"
 
 como o arquivo ja esta adicionado, agora vamos da o commit
 
+sempre tem que colocar um comentario entre "" apos o -m
+
 git commit -m "Início do projeto"
 
 git status, verificamos que não há nenhuma alteração em nosso projeto
