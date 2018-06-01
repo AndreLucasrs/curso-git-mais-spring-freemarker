@@ -63,4 +63,11 @@ git whatchanged = para saber quais os arquivos foram alterados
 
 git branch = verificar quais branch tem no repositorio
 
-git branch <design> = vai criar um branch nova chamado design	
+git branch <design> = vai criar um branch nova chamado design
+
+para mudarmos para essa nova branch basta,
+
+git checkout <design> = muda para branch que vc quer, nesse caso a que acabamos de criar
+
+sobre tortoise, link util
+http://joelabrahamsson.com/remote-branches-with-tortoisegit/
