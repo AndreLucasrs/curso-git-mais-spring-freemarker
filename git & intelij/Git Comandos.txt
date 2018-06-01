@@ -61,5 +61,19 @@ git log = mostrará informações como o autor, a data e hora e a mensagem de co
 
 git whatchanged = para saber quais os arquivos foram alterados
 
+git branch = verificar quais branch tem no repositorio
 
+git branch <design> = vai criar um branch nova chamado design
 
+para mudarmos para essa nova branch basta,
+
+git checkout <design> = muda para branch que vc quer, nesse caso a que acabamos de criar
+
+git mergetool --tool-help = mostra uma lista de programas possíveis de ser utilizados para fazer merge
+
+e para utilizar o programa de merge
+
+git mergetool -t nome_do_programa
+
+sobre tortoise, link util
+http://joelabrahamsson.com/remote-branches-with-tortoisegit/
