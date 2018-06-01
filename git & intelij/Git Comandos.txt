@@ -1,0 +1,8 @@
+git tag = Para saber a versão do projeto
+
+git checkout v0.1 = se quisermos ver como o projeto estava naquele ponto
+
+git diff v0.1 v0.2 = ver a diferença em cada versão 
+
+git blame index.html = quem foi o autor de cada linha de um arquivo
+

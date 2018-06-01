@@ -1,0 +1,162 @@
+Atalhos e Dicas Sobre Intelij 
+
+Mas como podemos buscar essa configuração de atalhos? Podemos ir em "File > Settings" para chegarmos a todas as configurações do IntelliJ. No campo de busca, podemos digitar "Keymap" para filtrar a opção desejada.
+
+Na seção de Keymap podemos ver a configuração usada na opção Keymaps, por padrão no Windows a configuração vem como Default, mas não se preocupe caso você esteja no Mac ou no Linux, durante o curso os atalhos serão ensinados nos três sistemas operacionais.
+
+Do lado direito teremos o símbolo de uma lupa, que é a opção Find Actions by Shortcut. Clicando nessa opção, podemos usar os atalhos que a IDE nos retorna a ação correspondente.
+
+Também temos ao lado da lupa, outro campo de busca. Nesse campo de busca podemos especificar a ação que queremos, por exemplo "new".
+
+O IntelliJ irá nos retornar a listagem de todas as ações que contenha a palavra buscada e junto os atalhos correspondentes à ação.
+
+OU Também podemos ter acesso a todos os atalhos através de
+Help > Keymap Reference
+
+Atalhos -
+alt + 1 = abre e fecha a janela project
+e agora e deixa vc navegar com as setas.
+
+em cima da pasta src
+alt + insert = permitir criar algum arquivo
+
+roda a classe atual
+alt + shift + f10 = run
+roda a classe atual
+alt + shif + f9 = debug
+
+Quando vc roda uma primeira vez, ele indexa e agora
+e deixa de certa forma mais facil o atalho para essa indexada
+
+shift + f10 = run
+
+shif + f9 = debug
+
+para mover uma classe para outro package,
+em cima da classe
+aperte f6 - escolha para qual package e de um rafactor
+
+sugestões do IntelliJ com o atalho 
+Alt + Enter
+
+para selecionar coluna ou linha
+//quando vc faz essa atalho no canto direito fica escrito column
+//quando faz novamente ele some
+alt + shift + insert 
+
+alt + insert = dentro de uma classe ele tem um contexto de generator exemplo gerar get e set
+
+ctrl + shift + f12 = expandir tela
+
+ctrl + n = busca uma classe dentro do projeto
+
+gerar um objeto local do tipo do objeto basta usar novamente
+as sugestões do intelij
+alt + enter
+
+ctrl + y = remover linha
+
+ctrl + d = duplica a linha anterior
+
+alt + shift + seta = mudar linha de local
+
+ctrl + shift + seta = muda linha so dentro daquele contexto exemplo so dentro do metodo
+
+se quiser acessar tudo do intelij
+ctrl + shift + a = exemplos de busca, keymap, generators, run
+
+shift + shift = buscar qualquer arquivo em todo o projeto
+como esse atalho ele busca em tudo, se soubermos pelo menos o diretorio
+exemplo modelo se acrescentar a / - modelo/, ele ira buscar dentro do diretorio
+
+ctrl + shift + n = busca apenas arquivos existentes
+
+ctrl + shift + f = buscar atraves qualquer tipo de texto dentro das classes
+
+ctrl + b = inspecionar metodo ou classe que esta utilizando
+
+alt + seta = movimentar atraves da tabs das classes abertas
+
+ctrl + f4 = fechar a classe atual
+
+ctrl + f12 = mostra metodos dentro da classe
+
+alt + f7 = mostra onde o metodo esta sendo usado
+
+ctrl + n = mostra qual classe vc quer ir, mas se vc quiser ir em uma linha ja especifica dessa clas
+// vc pode colocar o começo : e numero da linha exemplo pr:12
+
+alt + shift + x = fecha todas as classes
+
+//se vc quiser copiar uma classe
+//dentro da classe com nome dela selecionado 
+aperte f5
+coloque novo nome e package
+
+ctrl + alt + L = indentação de codigo
+
+shift + f6 = refatorar nome em todos os lugares que estão sendo usados
+
+ctrl + alt + m = extrair um novo metodo apartir daquele pedaço de codigo selecionado
+
+ctrl + h = vai mostrar hierarquia da classe
+
+alt + home = navegar pelo breadcrump criado pelo intelij
+
+ctrl + shift + alt + t = refatorar
+se selecionar o delegate tem como criar uma nova classe com esse metodo novo
+se selecio o encapsulate fields, vc pode procala os atributos private e ja gerar get e set
+
+ctrl + shift + f6 = alterar o tipo do objeto e ele ira alterar em todo mundo que tiver usando
+
+//criar uma classe de teste
+//coloque o curso em cima do nome da classe
+alt + enter e selecione create test
+
+ctrl + shift + alt + s = project strutures
+
+ctrl + w = selecionar por progressão
+
+
+//no modo debugg se quiser ja selecionar aquele bloco de codigo
+alt + f9 = modo debugg ja vai pro metodo que quer testar depois do primeiro breakpoint
+alt + f8 = executar o codigo em tempo de de execução
+//continua no modo debugg
+alt + f8 e colocar o nome da variavel ou metodo = vc irar ver o valor que ela tem
+//continua modo debugg
+f7 = entre nos metodo
+f8 = vai apenas nas linhas
+shift + f8 = sair de um metodo e ja pular pra proxima linha
+
+Ctrl + / (Barra) = colocar // para virar comentario
+
+//variaval local exemplo
+new Teste().var, deu enter ele vai gear
+Teste teste = new Teste()
+ou
+crtl + alt + v = ele ira gerar que nem o acima
+
+//criar um atributo exemplo
+new Teste().field, ele vai gerar um
+private Static Teste teste;
+teste = new Teste();
+ou
+ctrl + alt + f = ele ira gerar que nem o acima
+ou 
+ctrl + alt + c = ele ira gerar quem o acima mas sendo constante
+
+//selecione um bloco de codigo que queira colocar um for ou if ou ...
+ctrl + alt + t = ele irar coloca esse bloco de codigo dentro de um for ou if ou ...
+
+ctrl + alt + o = arruma os imports utilizados
+
+
+Templates - 
+em uma classe,
+se vc colocar as inicias do metodo main()
+psvm + enter = gerar o metodo main
+
+sout + enter = System.out.println()
+
+ctrl + j = verificar todos os templates
+Ctrl + Shift + A = Live Templates
