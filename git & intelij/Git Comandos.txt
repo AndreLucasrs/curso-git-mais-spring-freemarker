@@ -6,3 +6,58 @@ git diff v0.1 v0.2 = ver a diferença em cada versão
 
 git blame index.html = quem foi o autor de cada linha de um arquivo
 
+git ls-files = podemos verificar quais os arquivos que pertencem ao nosso repositório
+
+git status = para verificar o estados dos arquivos do nosso projeto
+
+acabamos de criar o alterar um arquivo iremos ver essa saida quando usar o git status,
+
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#  index.html
+
+para adicionar usamos o comando git add,
+
+git add <index.html> =  adicionar o arquivo <index.html> ao repositório
+
+agora vamos verificar estado do arquivo a saida sera,
+
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#  new file:   index.html
+
+
+arquivo passou para condição de Changes to be committed, isto é, na lista de arquivos que estão prontos para o commit
+
+para configurar, para quando comitar mostrar quem alterou
+
+git config user.name "Teste teste"
+git config user.email "teste@gmail.com"
+
+como o arquivo ja esta adicionado, agora vamos da o commit
+
+git commit -m "Início do projeto"
+
+git status, verificamos que não há nenhuma alteração em nosso projeto
+
+# On branch master
+nothing to commit (working directory clean)
+
+agora você que ver o historico de commit bastar usar o,
+
+git log = mostrará informações como o autor, a data e hora e a mensagem de commit utilizada
+
+git whatchanged = para saber quais os arquivos foram alterados
+
+
+
