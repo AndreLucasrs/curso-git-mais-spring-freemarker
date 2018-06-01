@@ -61,5 +61,6 @@ git log = mostrará informações como o autor, a data e hora e a mensagem de co
 
 git whatchanged = para saber quais os arquivos foram alterados
 
+git branch = verificar quais branch tem no repositorio
 
-
+git branch <design> = vai criar um branch nova chamado design	
