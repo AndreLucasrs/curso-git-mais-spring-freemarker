@@ -69,5 +69,11 @@ para mudarmos para essa nova branch basta,
 
 git checkout <design> = muda para branch que vc quer, nesse caso a que acabamos de criar
 
+git mergetool --tool-help = mostra uma lista de programas possíveis de ser utilizados para fazer merge
+
+e para utilizar o programa de merge
+
+git mergetool -t nome_do_programa
+
 sobre tortoise, link util
 http://joelabrahamsson.com/remote-branches-with-tortoisegit/
