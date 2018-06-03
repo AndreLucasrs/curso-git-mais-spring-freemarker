@@ -104,5 +104,7 @@ agora vamos para branch master e para juntar todas as coisas atualizadas na mast
 
 git merge desenvolvimento = vai atualizar a branch master com as novas coisas da desenvolvimento
 
+aula 6 da alura
+
 
 
