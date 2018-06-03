@@ -77,3 +77,16 @@ git mergetool -t nome_do_programa
 
 sobre tortoise, link util
 http://joelabrahamsson.com/remote-branches-with-tortoisegit/
+
+estamos na branch de desenvolvimento, e queremos atualizar a master com as coisa alteradas
+primeiros fazemos o seguinte comando,
+
+git rebase master = pegar todos os arquivos da master e passar para da desenvolvimento
+
+então agora a branch de desenvolvimento tem todas as coisas atuais da master e mais as coisas da desenvolvimento,
+agora vamos para branch master e para juntar todas as coisas atualizadas na master usamos o seguinte comando,
+
+git merge desenvolvimento = vai atualizar a branch master com as novas coisas da desenvolvimento
+
+
+
