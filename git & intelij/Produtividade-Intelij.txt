@@ -1,3 +1,7 @@
+Atalhos, Dicas e tamplates,
+
+visto no curso de intelij da alura
+
 Atalhos e Dicas Sobre Intelij 
 
 Mas como podemos buscar essa configuração de atalhos? Podemos ir em "File > Settings" para chegarmos a todas as configurações do IntelliJ. No campo de busca, podemos digitar "Keymap" para filtrar a opção desejada.

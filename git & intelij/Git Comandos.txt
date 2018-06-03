@@ -1,3 +1,19 @@
+Comandos visto no curso de git da alura
+
+Links uteis
+tortoise
+https://tortoisegit.org/docs/tortoisegit/
+https://prezi.com/qb14hgikuhiu/introducao-ao-git-com-tortoise/
+
+git intelij
+https://www.jetbrains.com/help/idea/using-git-integration.html
+
+git
+https://git-scm.com/doc
+https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git
+http://devdocs.io/git/
+
+
 git tag = Para saber a versão do projeto
 
 git checkout v0.1 = se quisermos ver como o projeto estava naquele ponto
