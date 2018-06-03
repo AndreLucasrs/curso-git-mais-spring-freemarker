@@ -106,5 +106,13 @@ git merge desenvolvimento = vai atualizar a branch master com as novas coisas da
 
 aula 6 da alura
 
+aula 7 - fala sobre como voltar em um antigo commit
+
+aula 8 - mais detalhes
+
+aula 9 - git cherry pick
+
+aula 10 - um exemplo de interface
+
 
 
