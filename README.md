@@ -17,5 +17,5 @@
 <p>http://matera.com/blog/post/crud-com-spring-e-thymeleaf</p>
 <p>http://www.springboottutorial.com/spring-boot-crud-rest-service-with-jpa-hibernate</p>
 </br></br>
-<p>Para talvez futuras teste</p>
+<p>Talvez futuros teste</p>
 <p>http://modelmapper.org/getting-started/</p>
