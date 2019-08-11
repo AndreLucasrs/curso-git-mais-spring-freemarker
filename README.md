@@ -21,9 +21,9 @@
 > [Desmistificando o Hibernate Envers](http://www.univale.com.br/unisite/mundo-j/artigos/58_Hibernate.pdf)
 
 
-> [CRUD com Spring e Thymeleaf] (http://matera.com/blog/post/crud-com-spring-e-thymeleaf)
+> [CRUD com Spring e Thymeleaf](http://matera.com/blog/post/crud-com-spring-e-thymeleaf)
 
-> [Creating a CRUD REST API/Service with Spring Boot, JPA and Hibernate] (http://www.springboottutorial.com/spring-boot-crud-rest-service-with-jpa-hibernate)
+> [Creating a CRUD REST API/Service with Spring Boot, JPA and Hibernate](http://www.springboottutorial.com/spring-boot-crud-rest-service-with-jpa-hibernate)
 
 
 # Talvez futuros testes
